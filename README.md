@@ -12,3 +12,5 @@ In this project I will be demonstrating the design pattrens implementation using
 The DRY principle is stated as *"Every piece of knowledge must have a single, unambiguous, representation within a system“*.
 
 Reference wiki here: [DRYwiki](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+
+The simplest away to achive DRY is make helper classes, extension methods etc. Divide your logic into smaller and reuseable pieces. This design pattren will help you maintaining your code and most importantly saves your efforts in debugging (*the real pain*). 
