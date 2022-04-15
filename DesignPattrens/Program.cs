@@ -13,6 +13,6 @@
     // Created a discrete and independant method
     private static string GenerateEmployeeId(string FirstName, string LastName)
     {
-        return $@"{FirstName[..4]}{LastName[..4]}{DateTime.Now.Ticks.ToString().Substring(0, 4)}"; 
+        return $@"{FirstName[..4]}{LastName[..4]}{DateTime.Now.Ticks.ToString().Substring(0, 4)}";
     }
 }
